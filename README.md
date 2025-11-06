@@ -12,8 +12,8 @@ uvicorn api.index:app --reload
 
 1. Підключіть репозиторій до Vercel.
 2. У Project Settings → Environment Variables додайте:
-   - `BOT_TOKEN = 8257773106:AAG7bwRNMZKSAI0541HmONX2JPmwvr7F62c`
-   - `OWNER_ID = 7390743758`
+   - `BOT_TOKEN = <ваш Telegram Bot API token>`
+   - `OWNER_ID = <ваш Telegram numeric user ID>`
    - `WEBAPP_URL = <прод-URL проекту на Vercel>`
 3. Задеплойте проект.
 4. Після деплою виконайте команду:
