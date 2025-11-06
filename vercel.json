@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/**/*.py": { "runtime": "python3.11" }
+  },
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/api/index.py" },
+    { "src": "/setup/menu", "dest": "/api/index.py" },
+    { "src": "/(.*)", "dest": "/api/index.py" }
+  ]
+}
